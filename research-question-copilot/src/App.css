@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+/* Container */
+.container {
+  background-color: #f7fafc; /* bg-gray-100 */
+  display: flex; /* flex */
+  align-items: center; /* items-center */
+  justify-content: center; /* justify-center */
+  min-height: 100vh; /* min-h-screen */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Card */
+.card {
+  background-color: white; /* bg-white */
+  padding: 2rem; /* p-8 */
+  border-radius: 0.5rem; /* rounded-lg */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+  width: 100%; /* w-full */
+  max-width: 28rem; /* max-w-md */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Form Elements */
+.mb-4 {
+  margin-bottom: 1rem; /* mb-4 */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-lg {
+  font-size: 1.125rem; /* text-lg */
 }
 
-.App-link {
-  color: #61dafb;
+.font-medium {
+  font-weight: 500; /* font-medium */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-gray-700 {
+  color: #4a5568; /* text-gray-700 */
+}
+
+.text-center {
+  text-align: center; /* text-center */
+}
+
+.bg-gray-300 {
+  background-color: #e2e8f0; /* bg-gray-300 */
+}
+
+.bg-blue-500 {
+  background-color: #4299e1; /* bg-blue-500 */
+}
+
+.text-white {
+  color: white; /* text-white */
+}
+
+.p-2 {
+  padding: 0.5rem; /* p-2 */
+}
+
+.rounded {
+  border-radius: 0.25rem; /* rounded */
+}
+
+.w-full {
+  width: 100%; /* w-full */
+}
+
+.mr-2 {
+  margin-right: 0.5rem; /* mr-2 */
+}
+
+.bg-gradient-to-r {
+  background: linear-gradient(to right, #667eea, #764ba2); /* Custom gradient */
 }
